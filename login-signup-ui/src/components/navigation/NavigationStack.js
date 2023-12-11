@@ -14,7 +14,7 @@ export default function NavigationStack() {
       <Stack.Navigator initialRouteName="Landing">
         <Stack.Screen
           options={{ headerShown: false }}
-          name="Landing"  // Set the name here
+          name="Landing"  // Initial Page
           component={LandingScreen}
         />
         <Stack.Screen
